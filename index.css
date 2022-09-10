@@ -1,0 +1,197 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: rgba(228, 144, 35, 0.151);
+}
+.head{
+   max-width: 100%;
+}
+img{
+    width: 100%;
+    height: 50vh;
+    size: cover;
+    position: center;
+    filter:brightness(0.9);
+}
+.htext{
+    margin: 1rem 1rem;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+}
+.text{
+    margin: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.loca{
+    margin: 0 1rem;
+    border: 2px solid #000;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+    transition: all 0.5s ease;
+}
+.loca:hover{
+    color: #000;
+    border: 2px solid rgba(165, 42, 42, 0.582);
+    background-color: #fff;
+}
+.loca i{
+    margin-left: 1.2rem;
+}
+.container img{
+    margin: 1.5rem 1rem;
+    width: 90%;
+}
+.contains .box{
+    margin: 0 1rem;
+    color: #fff;
+    background-color: #000;
+    padding: 2rem 1rem;
+}
+footer{
+    margin-top: 4rem;
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 1rem;
+}
+.texts{
+    margin: 1.2rem 0;
+}
+@media screen and (min-width:768px) {
+    .header{
+        position: relative;
+    }
+    .header h1{
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        font-size: 3rem;
+    }
+    .header img{
+        width: 60%;
+        height: 70vh;
+        filter: brightness(0.7);
+    }
+    .header p{
+        position: absolute;
+        top: 40%;
+        left:50% ;
+    }
+    .header button{
+        position: absolute;
+        bottom: 8%;
+    }
+    .container{
+        margin: 0 2.5rem;
+    }
+     .contain img{
+        width: 50vw;
+        height: 45%;
+    }
+     .contain{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .contains{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contains .img{
+        width:45vw;
+        height: 100%;
+    }
+    .contains img{
+        width: 42vw;
+        height: 50%; 
+    }
+    .box{
+        width: 42vw;
+        height: 39%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+@media screen and (min-width:1200px) {
+    .header{
+        position: relative;
+    }
+    .header h1{
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        font-size: 4rem;
+    }
+    .header img{
+        width: 60%;
+        height: 70vh;
+        filter: brightness(0.7);
+    }
+    .header p{
+        position: absolute;
+        top: 35%;
+        left:50% ;
+    }
+    .header button{
+        position: absolute;
+        bottom: 25%;
+    }
+    .container{
+        margin: 0 3rem;
+    }
+     .contain img{
+        width: 50%;
+        height: 50vh;
+    }
+     .contain{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .contains{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contains .img{
+        width:45vw;
+        height: 100%;
+    }
+    .contains img{
+        width: 42vw;
+        height: 39%;
+    }
+    .box{
+        width: 42vw;
+        height: 39%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
